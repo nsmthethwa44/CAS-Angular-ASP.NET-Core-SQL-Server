@@ -1,0 +1,486 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\repositories\\bidrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:repositories\\bidrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\repositories\\auctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:repositories\\auctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\interfaces\\iownerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:interfaces\\iownerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\interfaces\\iownerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:interfaces\\iownerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\interfaces\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:interfaces\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\interfaces\\ibidservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:interfaces\\ibidservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\interfaces\\ibidrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:interfaces\\ibidrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\interfaces\\iauctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:interfaces\\iauctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\interfaces\\iauctionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:interfaces\\iauctionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\entities\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:entities\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\entities\\auction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:entities\\auction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\dtos\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:dtos\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\dtos\\biddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:dtos\\biddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\dtos\\auctiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:dtos\\auctiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\controllers\\bidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:controllers\\bidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\controllers\\auctioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:controllers\\auctioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|c:\\users\\user\\desktop\\programming\\web design\\angular\\web apps\\car auction system\\backend\\carauctionsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E498A74-39CC-48D5-BA6E-F167003E60BE}|CarAuctionSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:26:38.493Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BidRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Repositories\\BidRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BidRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Repositories\\BidRepository.cs",
+              "RelativeToolTip": "Repositories\\BidRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:57:08.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IOwnerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IOwnerRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IOwnerRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IOwnerRepository.cs",
+              "RelativeToolTip": "Interfaces\\IOwnerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:55:59.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\ICarService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICarService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\ICarService.cs",
+              "RelativeToolTip": "Interfaces\\ICarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:55:43.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICarRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\ICarRepository.cs",
+              "RelativeToolTip": "Interfaces\\ICarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:55:19.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:41:44.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOwnerService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IOwnerService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IOwnerService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IOwnerService.cs",
+              "RelativeToolTip": "Interfaces\\IOwnerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:56:16.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:56:40.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBidService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IBidService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IBidService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IBidService.cs",
+              "RelativeToolTip": "Interfaces\\IBidService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:54:49.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuctionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Repositories\\AuctionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AuctionRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Repositories\\AuctionRepository.cs",
+              "RelativeToolTip": "Repositories\\AuctionRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T14:55:36.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IBidRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IBidRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IBidRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IBidRepository.cs",
+              "RelativeToolTip": "Interfaces\\IBidRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:54:26.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:54:04.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuctionService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IAuctionService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAuctionService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IAuctionService.cs",
+              "RelativeToolTip": "Interfaces\\IAuctionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:52:53.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAuctionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IAuctionRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAuctionRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Interfaces\\IAuctionRepository.cs",
+              "RelativeToolTip": "Interfaces\\IAuctionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:51:13.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:50:12.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Entities\\Payment.cs",
+              "RelativeToolTip": "Entities\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:49:57.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Entities\\Car.cs",
+              "RelativeDocumentMoniker": "Entities\\Car.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Entities\\Car.cs",
+              "RelativeToolTip": "Entities\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:49:46.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Bid.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Entities\\Bid.cs",
+              "RelativeDocumentMoniker": "Entities\\Bid.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Entities\\Bid.cs",
+              "RelativeToolTip": "Entities\\Bid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:49:35.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Auction.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Entities\\Auction.cs",
+              "RelativeDocumentMoniker": "Entities\\Auction.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Entities\\Auction.cs",
+              "RelativeToolTip": "Entities\\Auction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:49:11.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:48:50.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CarDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\DTOs\\CarDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CarDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\DTOs\\CarDto.cs",
+              "RelativeToolTip": "DTOs\\CarDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:48:34.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BidDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\DTOs\\BidDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\BidDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\DTOs\\BidDto.cs",
+              "RelativeToolTip": "DTOs\\BidDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:48:13.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuctionDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\DTOs\\AuctionDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuctionDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\DTOs\\AuctionDto.cs",
+              "RelativeToolTip": "DTOs\\AuctionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:46:04.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OwnerController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Controllers\\OwnerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OwnerController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Controllers\\OwnerController.cs",
+              "RelativeToolTip": "Controllers\\OwnerController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:38:54.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Controllers\\CarController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:36:34.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BidController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Controllers\\BidController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BidController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Controllers\\BidController.cs",
+              "RelativeToolTip": "Controllers\\BidController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:33:42.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:27:15.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuctionController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Controllers\\AuctionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuctionController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Controllers\\AuctionController.cs",
+              "RelativeToolTip": "Controllers\\AuctionController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:24:52.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programming\\Web Design\\Angular\\Web Apps\\Car Auction System\\Backend\\CarAuctionSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T09:37:21.787Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
