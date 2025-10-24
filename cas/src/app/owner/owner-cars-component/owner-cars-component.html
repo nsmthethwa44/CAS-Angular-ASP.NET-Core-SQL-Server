@@ -1,0 +1,65 @@
+<div class="my-cars car-box">
+    <div class="title flex">
+        <h3>My Cars</h3>
+          <div class="buttons">
+            <button class="btn" (click)="showIsVisible()"><i class="fa-solid fa-plus"></i>Add Auction</button>
+        </div>
+    </div>
+    <div class="container">
+               <div class="content">
+                @if (cars.length > 0) {
+                     <div class="card blur" *ngFor="let car of cars">
+                    <div class="box-img"><img [src]="`${getImageUrl(car?.imageUrl)}`" alt="Lorem, ipsum dolor." class="img-box"></div>
+                    <div class="text">
+                        <h3>{{car.name}}<i class="fa-solid fa-clipboard"></i></h3>
+                        <ul class="list">
+                            <li>Year: <h3>{{car.year}}</h3></li>
+                            <li>Model: <h3>Best</h3></li>
+                            <li>Status: <h3>{{car.status}}</h3></li>
+                        </ul>
+                        <h2>{{car.price | currency:'R':'symbol'}}</h2>
+                    </div>
+                </div>
+                }@else {
+                    <p>You have no cars listed yet.</p>
+                }
+       </div>
+</div>
+
+
+<div class="modal schedule" *ngIf="isVisible">
+  <form class="form blur" [formGroup]="carForm" (ngSubmit)="onSubmit()">
+    <div class="close" (click)="closeIsVisible()">
+      <i class="fa-solid fa-xmark blur"></i>
+    </div>
+
+    <div class="heading">
+      <h3>Add Car</h3>
+    </div>
+    <div class="divider blur"></div>
+
+    <label>Car Name:
+      <input type="text" formControlName="name" placeholder="Car name" class="textBox" />
+    </label>
+
+    <label>Year:
+      <input type="number" formControlName="year" placeholder="Year" class="textBox" />
+    </label>
+
+    <label>Price:
+      <input type="number" formControlName="price" placeholder="R0.0" class="textBox" />
+    </label>
+
+    <label>Upload Image:
+      <input type="file" (change)="onFileSelected($event)" class="textBox" />
+    </label>
+
+    <label>Short Description:
+      <input type="text" formControlName="description" placeholder="About your car..." class="textBox" />
+    </label>
+
+    <div class="buttons">
+      <button type="submit" class="btn" [disabled]="carForm.invalid">Submit Car</button>
+    </div>
+  </form>
+</div>

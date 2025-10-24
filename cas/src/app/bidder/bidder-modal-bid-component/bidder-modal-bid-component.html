@@ -1,0 +1,15 @@
+<div class="modal schedule " *ngIf="isVisible">
+<form class="form blur" [formGroup]="bidForm" (ngSubmit)="onSubmit()">
+    <div class="close" (click)="closeIsVisible()">
+      <i class="fa-solid fa-xmark blur"></i>
+    </div>
+    <div class="heading">
+      <h3>Place Your Bid</h3>
+    </div>
+    <div class="divider blur"></div>
+      <label>Price<input type="number" formControlName="price" class="textBox" /></label>
+    <div class="buttons">
+      <button type="submit" class="btn" >Confirm Bid</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,28 @@
+<div class="modal schedule " *ngIf="isVisible">
+<form class="form blur" [formGroup]="scheduleForm" (ngSubmit)="scheduleAuction()">
+    <div class="close" (click)="closeIsVisible()">
+      <i class="fa-solid fa-xmark blur"></i>
+    </div>
+
+    <div class="heading">
+      <h3>Schedule Car Auction </h3>
+    </div>
+    <div class="divider blur"></div>
+
+    <input type="text"  id="car-id"  formControlName="carId" class="textBox" hidden>
+
+    <label for="start-date">
+      Start Date:
+      <input type="date" id="start-date" class="textBox"  formControlName="startDate"/>
+    </label>
+
+    <label for="end-date">
+      End Date:
+      <input type="date" id="end-date" class="textBox"  formControlName="endDate"/>
+    </label>
+
+    <div class="buttons">
+      <button type="submit" class="btn" >Schedule Auction</button>
+    </div>
+  </form>
+</div>

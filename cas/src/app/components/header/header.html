@@ -1,0 +1,23 @@
+<!-- header  -->
+ <header class="header blur">
+    <div class="container">
+        <div class="menu-search">
+             <div class="menu blur" (click)="toggleSidebar()"><i class="fa-solid fa-bars"></i></div>
+
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search..." class="textBox">
+            </div>
+        </div>
+
+        <div class="user">
+            <div class="mode"><i class="fa-solid fa-moon"></i></div>
+            <div class="alert"><i class="fa-solid fa-bell"></i></div>
+            <div class="user-box">
+                <div class="box-img"><img [src]="`${getImageUrl(user.ImageUrl)}`"alt={{user.name}} class="img-box"></div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+    </div>
+ </header>
+<!-- end header  -->

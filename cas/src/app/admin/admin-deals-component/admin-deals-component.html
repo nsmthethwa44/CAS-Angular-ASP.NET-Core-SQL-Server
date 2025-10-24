@@ -1,0 +1,40 @@
+<div class="listing deals">
+    <div class="title flex">
+        <h3>Recent Deals</h3>
+        <div class="buttons">
+            <button class="btn"><i class="fa-solid fa-download"></i>Export<i class="fa-solid fa-angle-down"></i></button>
+        </div>
+    </div>
+
+    <div class="container blur">
+        <div class="heading">  <h3>Deals Table</h3></div>
+
+        <div class="table-container">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>#No</th>
+                    <th>Owner Name</th>
+                    <th>Creation Date</th>
+                    <th>Car Type</th>
+                    <th>Return Date</th>
+                    <th>Type</th>
+                    <th>Total Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let deal of deals">
+                    <td>{{ deal.no }}</td>
+                    <td class="img-td"><img src={{deal?.imgUrl}} alt="" class="image">{{ deal.ownerName }}</td>
+                    <td>{{ deal.creationDate }}</td>
+                    <td  class="img-td"><img src={{deal?.carUrl}} alt="" class="carImg">{{ deal.carType }}</td>
+                    <td>{{ deal.returnDate }}</td>
+                    <td>{{ deal.paymentType }}</td>
+                    <td>{{ deal.totalPrice | currency:'R':'symbol' }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    </div>

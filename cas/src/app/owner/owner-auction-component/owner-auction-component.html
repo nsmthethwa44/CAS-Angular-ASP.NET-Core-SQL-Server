@@ -1,0 +1,47 @@
+<div class="listing deals bids">
+    <div class="title flex">
+       <div class="heading">
+         <h3>My Auctions</h3>
+         <p>Lorem ipsum dolor sit amet.</p>
+       </div>
+        <div class="buttons">
+            <button class="btn"><i class="fa-solid fa-download"></i>Export<i class="fa-solid fa-angle-down"></i></button>
+        </div>
+    </div>
+
+    <div class="container blur">
+        <div class="heading">  <h3>Recent Auctions</h3></div>
+        @if (auctions.length > 0) {
+ <div class="table-container">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>#Id No</th>
+                    <th>Image</th>
+                    <th>Car Name</th>
+                    <th>Start Date</th>
+                    <th>Status</th>
+                    <th>End Date</th>
+                    <th>Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let item of auctions">
+                    <td>{{item?.id}}</td>
+                    <td class="img-td"><img [src]="`${getImageUrl(item?.imageUrl)}`" alt={{item?.name}} class="image"></td>
+                    <td>{{item?.name}}</td>
+                    <td>{{item?.startDate | date: 'MMM d, y, h:m a'}}</td>
+                      <td>{{item?.status}}</td>
+                    <td>{{item?.endDate | date: 'MMM d, y, h:m a'}}</td>
+                    <td>{{ item.price | currency:'R':'symbol' }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        }@else {
+            <p>You have no auctions yet.</p>
+        }
+       
+    </div>
+
+    </div>

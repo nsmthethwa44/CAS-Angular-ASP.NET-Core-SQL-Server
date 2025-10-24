@@ -1,0 +1,39 @@
+<div class="search">
+    <div class="title flex">
+        <h3>Search</h3>
+        <div class="buttons">
+            <button class="btn"><i class="fa-solid fa-download"></i>Export<i class="fa-solid fa-angle-down"></i></button>
+        </div>
+    </div>
+     <div class="container blur">
+       <div class="title flex">
+         <div class="buttons">
+            <button class="btn"><i class="fa-solid fa-filter"></i>Filter</button>
+         </div>
+       </div>
+       <div class="search-box flex">
+        <label for="">Type: <select name="" class="textBox" id="">
+            <option value="">--All Car's--</option>
+        </select></label>
+        <label for="">Brand: <select name="" class="textBox" id="">
+            <option value="">--Select Car Brand--</option>
+        </select></label>
+        <label for="">Search:<input type="text" class="textBox" placeholder="Search car..."></label>
+       </div>
+
+       <div class="content">
+        <div class="card blur" *ngFor="let item of cars.slice(0, 12)">
+                    <div class="box-img"><img [src]="`${getImageUrl(item?.imageUrl)}`" alt={{item?.name}} class="img-box"></div>
+                    <div class="text">
+                        <h3>{{item?.name}}<i class="fa-solid fa-clipboard"></i></h3>
+                        <ul class="list">
+                            <li>Year: <h3>{{item?.year}}</h3></li>
+                            <li>Model: <h3>Best</h3></li>
+                            <li>Status: <h3>{{item?.status}}</h3></li>
+                        </ul>
+                        <h2>R{{item?.price}}</h2>
+                    </div>
+                </div>
+       </div>
+    </div>
+</div>

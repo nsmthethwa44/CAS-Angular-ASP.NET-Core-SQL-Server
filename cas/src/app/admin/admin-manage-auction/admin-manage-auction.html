@@ -1,0 +1,55 @@
+<div class="listing manage-auction">
+    <div class="title flex">
+        <h3>Manage Auction</h3>
+        <div class="buttons">
+            <button class="btn"><i class="fa-solid fa-download"></i>Export<i class="fa-solid fa-angle-down"></i></button>
+        </div>
+    </div>
+
+    <div class="container blur">
+       <div class="title flex">
+         <h3>Auction List</h3>
+         <div class="buttons">
+            <button class="btn"><i class="fa-solid fa-filter"></i>Filter</button>
+         </div>
+       </div>
+
+       <div class="content">
+        <div class="card blur" *ngFor="let item of auctions">
+            <div class="box-img blur"><img [src]="`${getImageUrl(item?.imageUrl)}`" alt={{item?.name}} class="img-box"></div>
+            <div class="text-box">
+                <div class="info flex">
+                    <div class="img-text">
+                        <h3>{{item?.name}}</h3>
+                    </div>
+                    <i class="fa-solid fa-clipboard blur"></i>
+                </div>
+                <ul class="list">
+                    <li><i class="fa-solid fa-calendar-days"></i> 2034</li>
+                     <li><i class="fa-solid fa-gauge-high"></i>Petrol</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Durban</li>
+                </ul>
+                  <ul class="list">
+                        <li>Year: <h3>{{item?.year}}</h3></li>
+                        <li>Model: <h3>Best</h3></li>
+                        <li>Status: <h3>{{item?.status}}</h3></li>
+                    </ul>
+
+                   <div class="price flex">
+                     <h2>{{item?.price | currency:'R':'symbol'}}</h2>
+                     @if (item.status === "Scheduled") {
+                        <div class="buttons">
+                        <button class="btn" (click)="startAuction(item.id)">Start</button>
+                     </div>
+                     }@else if (item?.status === "Active") {
+                         <div class="buttons">
+                            <button class="btn auction" (click)="endAuction(item.id)">End</button>
+                     </div>
+                     }
+                   </div>
+            </div>
+        </div>
+       </div>
+    </div>
+</div>
+

@@ -1,0 +1,43 @@
+<section class="usedCars section">
+    <div class="container max-wrap">
+         <div class="title flex">
+            <div class="heading">
+                <h2>Convertible Cars</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sequi?</p>
+            </div>
+
+            <a href="" class="view-all">View All<i class="fa-solid fa-right-long"></i></a>
+        </div>
+
+        <div class="container-box">
+        <div class="card blur" *ngFor="let item of deals.slice(0, 6)">
+            <div class="box-img blur"><img src={{item?.carUrl}} alt={{item?.carType}} class="img-box"></div>
+            <div class="text-box">
+                <div class="info flex">
+                    <div class="img-text">
+                        <h3>{{item?.carType}}</h3>
+                    </div>
+                    <i class="fa-solid fa-clipboard blur"></i>
+                </div>
+                <ul class="list">
+                    <li><i class="fa-solid fa-calendar-days"></i> 2034</li>
+                     <li><i class="fa-solid fa-gauge-high"></i>Petrol</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Durban</li>
+                </ul>
+                  <ul class="list">
+                        <li>Year: <h3>Lorem</h3></li>
+                        <li>Model: <h3>Best</h3></li>
+                        <li>Status: <h3>Active</h3></li>
+                    </ul>
+
+                   <div class="price flex">
+                     <h2>{{item.totalPrice | currency: "R"}}</h2>
+                         <div class="buttons">
+                            <button class="btn auction">BID NOW</button>
+                     </div>
+                   </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>

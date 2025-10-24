@@ -1,0 +1,58 @@
+<div class="login-register register">
+<div class="content">
+  <form class="form blur" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <div class="inputs">
+      <div class="logo">
+        <i class="fa-solid fa-car-on"></i>
+      </div>
+
+      <h3>Create an Account</h3>
+
+      <label>Your Name
+        <input type="text" formControlName="name" class="textBox" placeholder="Full name" />
+      </label>
+
+      <label>Your Email
+        <input type="email" formControlName="email" class="textBox" placeholder="Email address" />
+      </label>
+
+      <label>Enter Password
+        <input type="password" formControlName="password" class="textBox" placeholder="Password" />
+      </label>
+
+      <label>Choose Role
+        <select formControlName="role" class="textBox">
+          <option value="">--Select Role--</option>
+          <option value="Owner">Owner</option>
+          <option value="Bidder">Bidder</option>
+        </select>
+      </label>
+
+      <label>Upload Photo
+        <input type="file" (change)="onFileSelected($event)" class="textBox" />
+      </label>
+
+      <div class="remember-me">
+        <span><input type="checkbox" />Remember Me</span>
+        <a href="#">Forgot Password</a>
+      </div>
+
+      <div class="buttons">
+        <button type="submit" class="btn" [disabled]="registerForm.invalid">
+          Register <i class="fa-solid fa-arrow-right-to-bracket"></i>
+        </button>
+      </div>
+
+      <p>Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Vel, libero?</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="account">
+      <p>Already have an account? <a [routerLink]="['/login']">Login</a></p>
+    </div>
+  </form>
+</div>
+
+    <app-copyright></app-copyright>
+</div>

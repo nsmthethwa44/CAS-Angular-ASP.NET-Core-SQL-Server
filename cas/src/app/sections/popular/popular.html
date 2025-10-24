@@ -1,0 +1,39 @@
+<section class="popular">
+    <div class="container max-wrap">
+        <div class="title flex">
+            <div class="heading">
+                <h2>Convertible Cars</h2>
+                <ul class="list">
+                    <li class="active">Popular</li>
+                    <li>Older</li>
+                    <li>Latest</li>
+                </ul>
+            </div>
+
+            <a href="" class="view-all">View All<i class="fa-solid fa-right-long"></i></a>
+        </div>
+
+        <div class="container-box">
+            <div class="box blur" *ngFor="let deal of deals.slice(4, 8)">
+                <div class="box-img"><img src={{deal?.carUrl}} alt={{deal?.carType}} class="img-box"></div>
+                <div class="text-box">
+                    <h3>{{deal?.carType}}</h3>
+                    <ul class="list">
+                    <li><i class="fa-solid fa-calendar-days"></i> 2034</li>
+                     <li><i class="fa-solid fa-gauge-high"></i>Petrol</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Durban</li>
+                </ul>
+                <div class="price-bid flex">
+                    <h2>{{ deal.totalPrice | currency:'R':'symbol' }}</h2>
+
+                    <div class="buttons">
+                        <a routerLink="/login"><button class="btn" >BID NOW</button></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

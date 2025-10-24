@@ -1,0 +1,58 @@
+<div class="listing">
+    <div class="title flex">
+        <h3>Listing</h3>
+        <div class="buttons">
+            <button class="btn"><i class="fa-solid fa-download"></i>Export<i class="fa-solid fa-angle-down"></i></button>
+        </div>
+    </div>
+
+    <div class="container blur">
+       <div class="title flex">
+         <h3>Available Cars</h3>
+         <div class="buttons">
+            <button class="btn"><i class="fa-solid fa-filter"></i>Filter</button>
+         </div>
+       </div>
+
+       <div class="content">
+        <div class="card blur" *ngFor="let item of cars">
+            <div class="box-img blur"><img [src]="`${getImageUrl(item?.imageUrl)}`" alt={{item?.name}} class="img-box"></div>
+            <div class="text-box">
+                <div class="info flex">
+                    <div class="img-text">
+                        <img [src]="`${getImageUrl(item?.ownerImageUrl)}`" alt={{item?.name}}>
+                        <h3>{{item?.ownerName}}</h3>
+                    </div>
+                    <i class="fa-solid fa-clipboard blur"></i>
+                </div>
+                <h3>{{item?.name}}</h3>
+                <ul class="list">
+                    <li><i class="fa-solid fa-calendar-days"></i> 2034</li>
+                     <li><i class="fa-solid fa-gauge-high"></i>Petrol</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Durban</li>
+                </ul>
+                  <ul class="list">
+                        <li>Year: <h3>{{item?.year}}</h3></li>
+                        <li>Model: <h3>Best</h3></li>
+                        <li>Status: <h3>{{item?.status}}</h3></li>
+                    </ul>
+
+                   <div class="price flex">
+                     <h2>{{item?.price | currency:'R':'symbol'}}</h2>
+                     @if (item.status === "Draft"  || item.status === "Rejected") {
+                        <div class="buttons">
+                        <button class="btn" (click)="approveAuction(item.id)">Approve</button>
+                     </div>
+                     }@else if (item?.status === "Approved") {
+                         <div class="buttons">
+                            <button class="btn auction" (click)="openIsVisible(item.id)">Schedule</button>
+                     </div>
+                     }
+                   </div>
+            </div>
+        </div>
+       </div>
+    </div>
+</div>
+
+<app-admin-schedule-auction-component [isVisible]="isVisible" [carId]="selectedCarId"></app-admin-schedule-auction-component>

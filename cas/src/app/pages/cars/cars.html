@@ -1,0 +1,50 @@
+<section class="section banner section blur">
+    <div class="container max-wrap">
+        <div class="title">
+            <h1>Cars</h1>
+        </div>
+    </div>
+</section>
+
+<section class="whyChooseUs">
+    <div class="container max-wrap">
+        <div class="title flex">
+            <div class="heading">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h2>Why Choose Us?</h2>
+            </div>
+
+            <ul class="list flex">
+                <li>Available Cars</li> |
+                <li>New Cars</li> |
+                <li class="active">Used Cars</li> 
+            </ul>
+        </div>
+
+        <div class="container-box">
+            <div class="box blur" *ngFor="let deal of deals">
+                <div class="box-img"><img src={{deal?.carUrl}} alt={{deal?.carType}} class="img-box"></div>
+                <div class="text-box">
+                    <h3>{{deal?.carType}}</h3>
+                    <ul class="list">
+                    <li><i class="fa-solid fa-calendar-days"></i> 2034</li>
+                     <li><i class="fa-solid fa-gauge-high"></i>Petrol</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Durban</li>
+                </ul>
+                <div class="price-bid flex">
+                    <h2>{{ deal.totalPrice | currency:'R':'symbol' }}</h2>
+
+                    <div class="buttons">
+                        <a routerLink="/login"><button class="btn" >BID NOW</button></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="cars-reviews">
+    <app-reviews></app-reviews>
+</div>
+<app-insight-news></app-insight-news>

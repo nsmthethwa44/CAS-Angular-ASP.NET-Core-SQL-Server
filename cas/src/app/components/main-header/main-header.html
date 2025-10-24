@@ -1,0 +1,26 @@
+<div class="main-header" [class.active]="isScrolled">
+    <div class="container max-wrap">
+        <div class="logo"> <i class="fa-solid fa-car-on"></i><h2>CarAuction</h2></div>
+
+        <div class="navbar" [class.active] ="isNavBarOpen">
+            <div class="top">
+                 <div class="logo"> <i class="fa-solid fa-car-on"></i><h2>CarAuction</h2></div>
+                 <div class="close-nav" (click)="closeNavbar()"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+            <div class="divider"></div>
+
+            <ul class="nav">
+                <li><a [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeNavbar()">Home</a></li>
+                <li><a [routerLink]="['/about']" routerLinkActive="active" (click)="closeNavbar()">About</a></li>
+                <li><a [routerLink]="['/cars']" routerLinkActive="active" (click)="closeNavbar()">Listing</a></li>
+                <li><a [routerLink]="['/blog']" routerLinkActive="active" (click)="closeNavbar()">Blog</a></li>
+                 <li><a [routerLink]="['/contact']" routerLinkActive="active" (click)="closeNavbar()">Contact</a></li>
+            </ul>
+        </div>
+
+          <div class="buttons">
+               <a routerLink="/login"><button class="btn" >BID NOW</button></a>
+               <div class="menu-box" (click)="toggleNavBar()"><i class="fa-solid fa-bars"></i></div>
+            </div>
+    </div>
+</div>

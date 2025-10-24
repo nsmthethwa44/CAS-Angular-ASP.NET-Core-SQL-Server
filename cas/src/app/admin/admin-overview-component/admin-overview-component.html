@@ -1,0 +1,113 @@
+<div class="stats">
+    <div class="box blur">
+        <div class="text-icon"><p>Active Users</p><i class="fa-solid fa-users"></i></div>
+        <h2>45</h2>
+        <p>Lorem, ipsum dolor.</p>
+    </div>
+    <div class="box blur">
+        <div class="text-icon"><p>Active Auctions</p><i class="fa-solid fa-taxi"></i></div>
+        <h2>10</h2>
+        <p>Lorem, ipsum dolor.</p>
+    </div>
+    <div class="box blur">
+        <div class="text-icon"><p>Active Bids</p><i class="fa-solid fa-car-tunnel"></i></div>
+        <h2>5</h2>
+        <p>Lorem, ipsum dolor.</p>
+    </div>
+    <div class="box blur">
+        <div class="text-icon"><p>Total Payment</p><i class="fa-solid fa-money-bill-wave"></i></div>
+        <h2>14</h2>
+        <p>Lorem, ipsum dolor.</p>
+    </div>
+</div>
+
+<div class="available-cars">
+    <div class="box">
+        <div class="cars blur">
+            <div class="title">
+                <h3>Available Cars</h3>
+                <a href="#" class="filter-btn"><i class="fa-solid fa-filter"></i>Filter By</a>
+            </div>
+
+            <div class="container" >
+                <div class="card blur" *ngFor="let item of cars.slice(0, 6)">
+                    <div class="box-img"><img [src]="`${getImageUrl(item?.imageUrl)}`" alt={{item?.name}} class="img-box"></div>
+                    <div class="text">
+                        <h3>{{item?.name}}<i class="fa-solid fa-clipboard"></i></h3>
+                        <ul class="list">
+                            <li>Year: <h3>{{item?.year}}</h3></li>
+                            <li>Model: <h3>Best</h3></li>
+                            <li>Status: <h3>{{item?.status}}</h3></li>
+                        </ul>
+                        <h2>{{item?.price | currency:'R':'symbol'}}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="activity blur">
+            <div class="title">
+                <h3>Recent Activity</h3>
+                <i class="fa-solid fa-circle-info"></i>
+            </div>
+
+            <div class="activity-info blur">
+                <div class="info">
+                    <div class="text-box blur">
+                        <div class="box-img blur"><img src="assets/img/Audi_Jeep.jpg" alt="" class="img-box"></div>
+                        <div class="text">
+                            <h3>Lorem ipsum dolor.</h3>
+                            <ul class="list">
+                                <li><i class="fa-solid fa-clock"></i>3 Days Remaining</li>
+                                <li><i class="fa-solid fa-location-dot"></i>Lorem, ipsum.</li>
+                            </ul>
+                            <h2>R34454</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="car-info blur">
+                        <div class="title">
+                             <h3>Car Info</h3>
+                             <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                       <div class="owner">
+                            <div class="box-img"><img src="assets/img/img-1.jpg" alt="" class="img-box"></div>
+                            <div class="text">
+                                <h3>Lorem ipsum dolor.</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                       </div>
+
+                       <div class="desc blur">
+                        <h3>Description</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Rem quis id tenetur ducimus atque maiores, temporibus
+                             reiciendis voluptate explicabo voluptatem unde, nihil porro 
+                             consequatur ipsa ipsam illum officia ex tempore. Corporis 
+                             dignissimos debitis voluptate sint nihil maiores consectetur
+                              perspiciatis aut, at ducimus, libero incidunt ad temporibus 
+                              obcaecati quia? Odio, facilis?</p>
+                           
+                       </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="bid blur">
+                        <div class="box-img"><img src="assets/img/img-2.jpg" alt="" class="img-box"></div>
+                        <div class="text">
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Lorem ipsum</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-phone blur"></i>
+                            <i class="fa-solid fa-envelope blur"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>

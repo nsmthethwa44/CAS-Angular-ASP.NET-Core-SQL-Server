@@ -1,0 +1,45 @@
+<div class="listing deals bids">
+    <div class="title flex">
+       <div class="heading">
+         <h3>My Bids</h3>
+         <p>Lorem ipsum dolor sit amet.</p>
+       </div>
+        <div class="buttons">
+            <button class="btn"><i class="fa-solid fa-download"></i>Export<i class="fa-solid fa-angle-down"></i></button>
+        </div>
+    </div>
+
+    <div class="container blur">
+        <div class="heading">  <h3>Recent Bids</h3></div>
+        @if (bids.length > 0) {
+ <div class="table-container">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>#Id No</th>
+                    <th>Image</th>
+                    <th>Car Name</th>
+                    <th>Status</th>
+                    <th>Bid Time</th>
+                    <th>Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let item of bids">
+                    <td>{{item?.auctionId}}</td>
+                    <td class="img-td"><img [src]="`${getImageUrl(item?.carImageUrl)}`" alt={{item?.carName}} class="image"></td>
+                    <td>{{item?.carName}}</td>
+                    <td>{{item?.isActive ? "Active" : "Inactive"}}</td>
+                    <td>{{item?.bidTime | date: 'MMM d, y, h:m a'}}</td>
+                    <td>{{ item.price | currency:'R':'symbol' }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        }@else {
+            <p>You have not placed a bid yet.</p>
+        }
+       
+    </div>
+
+    </div>

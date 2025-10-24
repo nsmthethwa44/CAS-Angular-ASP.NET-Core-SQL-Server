@@ -1,0 +1,76 @@
+<div class="listing deals bids">
+    <div class="title flex">
+       <div class="heading">
+         <h3>Bids On My Cars</h3>
+         <p>Lorem ipsum dolor sit amet.</p>
+       </div>
+        <div class="buttons">
+            <button class="btn"><i class="fa-solid fa-download"></i>Export<i class="fa-solid fa-angle-down"></i></button>
+        </div>
+    </div>
+
+    @if (bidders.length > 0) {
+    <div class="container blur top-bidders">
+        <div class="heading">  <h3>Top Bidders</h3></div>
+        <div class="table-container">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Bidder</th>
+                    <th>Photo</th>
+                    <th>Total Bid Amount</th>
+                    <th>Number of Bids</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let item of bidders.slice(0, 3)">
+                    <td>{{ item.bidderName }}</td>
+                    <td class="img-td"><img [src]="`${getImageUrl(item?.bidderImageUrl)}`" alt={{item?.bidderName}} class="photo"></td>
+                    <td>R{{ item.totalBids | number: '1.0-0' }}</td>
+                    <td>{{ item.numberOfBids }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    }
+
+
+    <div class="container blur">
+        <div class="heading">  <h3>Recent Bids</h3></div>
+        @if (bids.length > 0) {
+         <div class="table-container">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>#Id No</th>
+                    <th>Image</th>
+                    <th>Car Name</th>
+                    <th>Bid Time</th>
+                    <th>Photo</th>
+                    <th>Bidder Name</th>
+                    <th>Status</th>
+                    <th>Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let item of bids">
+                    <td>{{item?.auctionId}}</td>
+                    <td class="img-td"><img [src]="`${getImageUrl(item?.carImageUrl)}`" alt={{item?.CarName}} class="image"></td>
+                    <td>{{item?.carName}}</td>
+                    <td>{{item?.bidTime  | date: 'MMM d, y, h:m a'}}</td>
+                    <td class="img-td"><img [src]="`${getImageUrl(item?.bidderImageUrl)}`" alt={{item?.bidderName}} class="photo"></td>
+                      <td>{{item?.bidderName}}</td>
+                      <td>{{item?.isActive ? "Active" : "InActive"}}</td>
+                    <td>{{ item.price | currency:'R':'symbol' }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        }@else {
+            <p>You have no bids yet.</p>
+        }
+       
+    </div>
+
+    </div>
