@@ -1,107 +1,80 @@
-# Car Auction System  - Angular, ASP.NET Core Web API and SQL Server
-A full-stack web application built with **ASP.NET Core Web API**, **Angular**, and **SQL Server** that allows car owners to list vehicles for auction and enables bidders to place and track bids in real-time.
+Car Auction System - (Angular, ASP.NET Core Web API, SQL Server)
 
----
+A full-stack car auction platform that allows vehicle owners to list cars for auction and enables authenticated users to place and track bids through a secure, role-based system.
 
-## Features
-- Car Owner registration and authentication
-- Add and manage cars
-- Create and manage auctions
-- Place and track bids
-- Real-time bid updates (SignalR or polling, depending on your implementation)
-- Role-based user access
+Project Overview
+- The Car Auction System digitizes the traditional vehicle auction process by providing a centralized web platform where:
+- Car owners create and manage auctions
+- Buyers place bids and track auction progress
+- The system enforces fair bidding rules and role-based access
 
----
+The application is built with clear separation of concerns to ensure predictable bidding behavior, secure access, and maintainable business logic.
 
-## Tech Stack
-| Layer | Technology |
-|------|------------|
-| Backend | ASP.NET Core Web API (.NET 8) |
-| Frontend | Angular |
-| Database | SQL Server |
-| Authentication | JWT Token Auth |
-| Version Control | Git + GitHub |
+User Roles & Flows:
+- Car Owner:
+	- Register and authenticate
+	- Add and manage vehicles
+	- Create auctions with defined rules
+	- Monitor active and completed auctions
 
----
+Bidder:
+	- Browse available car auctions
+	- Place bids on active auctions
+	- Track bid history and auction outcomes
 
-## Project Structure
-/Backend → ASP.NET Core Web API
-/cas (or /ClientApp) → Angular Frontend
-/db → SQL database scripts
+System Rules:
+	- Only authenticated users can bid
+	- Auctions enforce bid validation logic
+	- Role-based access controls sensitive actions
 
+Features:
+- JWT-based authentication
+- Role-based access control
+- Vehicle listing and managemen
+- Auction creation and lifecycle management
+- Bid placement and tracking
+- Real-time or near-real-time bid updates
+- Secure API-driven architecture
 
----
+Tech Stack:
+- Frontend:
+	- Angular
+	- TypeScript
+	- SCSS
+	- Angular Router
 
-## Getting Started
+- Backend:
+	- ASP.NET Core Web API (.NET 8)
+	- C#
+	- Entity Framework Core
+	- LINQ
 
-### Prerequisites
-Make sure you have these installed:
-- .NET 8 SDK  
-- Node.js (v18+)  
-- Angular CLI  
-- SQL Server (LocalDB or full instance)  
-- Visual Studio or VS Code
+- Database:
+	- SQL Server
+	- Architecture & Security
+	- JWT Authentication
+	- Role-Based Access Control (RBAC)
 
----
+- SOLID principles:
+	- Service / Repository pattern
 
-## Backend Setup (API)
-1. Navigate into the backend project:
-   ```bash
-   cd Backend/CarAuctionSystem
-Restore dependencies: 
-dotnet restore
+Project Structure:
+- /Backend    → ASP.NET Core Web API
+- /cas        → Angular frontend
+- /db         → SQL scripts
 
-Update appsettings.json with your SQL connection string:
+Setup & Run:
+- Backend:
+	- dotnet restore
+	- dotnet run
 
-"ConnectionStrings": {
-  "DefaultConnection": "Server=YOUR_SERVER;Database=CarAuctionDB;Trusted_Connection=True;"
-}
+- Frontend:
+	- npm install
+	- ng serve
 
+Production Build:
+- ng build --configuration production
 
-Apply migrations (if applicable):
-
-dotnet ef database update
-
-
-Run the API:
-
-dotnet run
-
-Frontend Setup (Angular)
-
-Navigate to the Angular project:
-
-cd cas
-
-
-Install dependencies:
-
-npm install
-
-
-Start the Angular app:
-
-ng serve --open
-
-Usage
-
-Access the frontend in your browser at:
-
-http://localhost:4200
-
-
-Ensure the API is running on:
-
-http://localhost:5000 (or the port specified in launchSettings.json)
-
-Future Enhancements (Optional)
-
-Payment integration
-Auction scheduling
-Email / SMS notifications
-Admin dashboard for system monitoring
-
-License
-This project is for educational and portfolio purposes.
-
----
+Links:
+- Live Demo: https://carauctionsystem.netlify.app/
+- GitHub Repository: This Repo
